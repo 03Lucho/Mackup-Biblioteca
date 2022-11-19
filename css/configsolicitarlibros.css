@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.barrabusqueda{
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+#orilla{
+    border: none;
+}
+.barra{
+    padding-right: 10px;
+}
+.busquedas{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+#desplegable{
+    border: none;
+}
+.resalto{
+    color: blue;
+    text-decoration: underline;
+    padding-right: 20px;;
+}
+#acciones{
+    text-align: center;
+}
+.esquema>td{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.datos{
+    margin-left: 50px;
+    background-color: white;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.sesion{
+    position: relative;
+    left: 1150px;
+    height: 70px;
+    width: 170px;
+}
+#cierresesion{
+    position: relative;
+    bottom: 30px;
+}
+.tabla{
+    position: absolute;
+    right: 30px;
+}
+#numeracion{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 55px 30px 30px 30px 30px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.general{
+    margin-top: 30px;
+    width: 1450px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 550px;
+}
+body{
+    background-color: rgba(220, 176, 118, 0.848);;
+}
+.esquemas>td{
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+h5{
+    padding-left: 2px;
+}
+#solo{
+    color: blue;
+    text-decoration: underline;
+    padding-right: 20px;;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#navegacion{
+    text-align: center;
+    background-color: cornflowerblue;;
+    width: 120%;
+}
+a{
+    color: black;
+    padding: 50px;
+}
+header{
+    background-color: cadetblue;
+    text-align: center;
+    height: auto;
+    width: 120%;
+} 
+#header{
+    color: black;
+    padding-top: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    height: auto;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 120%;
+}
+.sinrelleno{
+    background-color: rgba(220, 176, 118, 0.848);;
+    border: none solid rgba(220, 176, 118, 0.848);;
+}

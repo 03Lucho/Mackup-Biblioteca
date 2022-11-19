@@ -1,0 +1,10 @@
+header{
+    background-color: cadetblue;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+#header{
+    color: black;
+    padding-top: 10px;
+}

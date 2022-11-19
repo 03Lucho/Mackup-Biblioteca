@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Libros</title>
+    <link rel="stylesheet" href="../css/configsolicitarlibros.css">
+</head>
+
+<body>
+    <header>
+        <H1 id="header">Mackup Biblioteca</H1>
+    </header>
+    <div id="navegacion">
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../libros/Crear Libros.html">Crear libro</a>
+            <a href="../libros/Entregar Libros.html">Entregar libro</a>
+            <a href="#">Solicitar libro</a>
+        </nav>
+    </div>
+    <div class="general">
+        <div class="sesion">
+            <input type="image" src="../img/icono inicio sesion.png" alt="" height="60px">
+            <select name="" id="cierresesion">
+                <option value="">Luis Zamudio</option>
+                <option value="">Cerrar sesion</option>
+            </select>
+        </div>
+
+        <div class="tabla">
+            <H1>Solicitar Libro(s)</H1>
+            <!-- Tabla 1 barra de busqueda -->
+            <form action="">
+                <table class="busquedas">
+                    <Tr>
+                        <td class="barra">
+                            <label for="">Buscar libro por:</label>
+                        </td>
+                        <td class="barra">
+                            <input type="radio" name="Datos" id="Especificos">Titulo
+                            <input type="radio" name="Datos" id="Especificos">Autor
+                            <input type="radio" name="Datos" id="Especificos">Area
+                        </td>
+                        <td class="barrabusqueda">
+                            <input type="image" src="../img/img.png" alt="" height="12px">
+                            <input type="text" name="" id="orilla" placeholder="search" size="116px">
+                        </td>
+                    </Tr>
+                </table>
+            </form>
+            <!-- Tabla 2 datos  -->
+            <form action="">
+                <table class="datos" border="2px" bordercolor="black">
+                    <!-- fila 1 -->
+                    <tr>
+                        <td>
+                            <select name="" id="desplegable">
+                                <option value="">Titulo</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="">Editorial</label>
+                        </td>
+                        <td>
+                            <select name="" id="desplegable">
+                                <option value=> ISBN </option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="">Autor(es)</label>
+                        </td>
+                        <td>
+                            <label for="">Num. Paginas</label>
+                        </td>
+                        <td>
+                            <label for="">Num. Ejemplares</label>
+                        </td>
+                        <td>
+                            <label for="">Disponible</label>
+                        </td>
+                        <td>
+                            <select name="" id="desplegable">
+                                <option value="">Disponible para:</option>
+                            </select>
+                        </td>
+                        <td class="sinrelleno" id="acciones" colspan="2">
+                            <label for="">Acciones</label>
+                        </td>
+                    </tr>
+                    <!-- fila 2 -->
+                    <tr class="esquema" rowspan="2">
+                        <td>
+                            <label for="">Bases de datos NoSQL</label>
+                        </td>
+                        <td>
+                            <label for="">Mc Graw Hill</label>
+                        </td>
+                        <td>
+                            <label for="">2-445-23-5-223</label>
+                        </td>
+                        <td>
+                            <label for="">
+                                <h5>Luis Estupiñon</h5>
+                                <h5>Lucrecia Albarracin</h5>
+                            </label>
+
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="189" step="10">
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="3" step="10">
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Si</option>
+                                <option value="">No</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Sala</option>
+                                <option value="">Casa</option>
+                            </select>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 id="solo">Ver contenido</h5>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 id="solo">Solicitar</h5>
+                        </td>
+                    </tr>
+                    <!-- fila 3 -->
+                    <tr class="esquema" rowspan="3">
+                        <td>
+                            <label for="">Gestion de bases de datos</label>
+                        </td>
+                        <td>
+                            <label for="">Heroes</label>
+                        </td>
+                        <td>
+                            <label for="">4-86-2-3-444</label>
+                        </td>
+                        <td>
+                            <label for="">
+                                <h5>Laura López</h5>
+                                <h5>Maria Zuñiga</h5>
+                                <h5>Lucia Lucca</h5>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="345" step="10">
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="2" step="10">
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">No</option>
+                                <option value="">Si</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Casa</option>
+                                <option value="">Sala</option>
+                            </select>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 class="resalto">Ver contenido</h5>
+                        </td>
+                        <td class="sinrelleno"></td>
+                    </tr>
+                    <!-- fila 4 -->
+                    <tr class="esquema">
+                        <td>
+                            <label for="">Guia practica de bases de datos</label>
+                        </td>
+                        <td>
+                            <label for="">Principe</label>
+                        </td>
+                        <td>
+                            <label for="">6-789-23-56-7</label>
+                        </td>
+                        <td>
+                            <label for="">
+                                <h5>Pappilla Rusberly</h5>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="56" step="10">
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="1" step="10">
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Si</option>
+                                <option value="">No</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Sala</option>
+                                <option value="">Casa</option>
+                            </select>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 class="resalto">Ver contenido</h5>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 class="resalto">Solicitar</h5>
+                        </td>
+                    </tr>
+                    <!-- fila 5 -->
+                    <tr class="esquema" rowspan="2">
+                        <td>
+                            <label for="">Modelado de bases de datos</label>
+                        </td>
+                        <td>
+                            <label for="">Luciernaga</label>
+                        </td>
+                        <td>
+                            <label for="">6-788-334-5</label>
+                        </td>
+                        <td>
+                            <label for="">
+                                <h5>Laura López</h5>
+                                <h5>Maria Zuñiga</h5>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="345" step="10">
+                        </td>
+                        <td>
+                            <input type="number" name="" id="" value="4" step="10">
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Si</option>
+                                <option value="">No</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Sala</option>
+                                <option value="">Casa</option>
+                            </select>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 class="resalto">Ver contenido</h5>
+                        </td>
+                        <td class="sinrelleno">
+                            <h5 class="resalto">Solicitar</h5>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <!-- Tabla 3 de acciones -->
+        <div class="tablatres">
+            <form action="">
+                <table>
+
+
+
+
+
+                </table>
+            </form>
+        </div>
+        <div id="numeracion">
+            <div>
+                <h4 class="resalto">Back</h4>
+            </div>
+            <div>
+                <h4 class="resalto">1</h4>
+            </div>
+            <div>
+                <h4 class="resalto">2</h4>
+            </div>
+            <div>
+                <h4 class="resalto">3</h4>
+            </div>
+            <div>
+                <h4 class="resalto">Next</h4>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Derechos Reservados a: Luis Miguel Zamudio López</h3>
+        <h3>Tecnologo en: Analisis Y Desarrollo De Software</h3>
+        <h3>Ficha: 2501469</h3>
+        <h3>Fecha: 10/11/2022</h3>
+    </footer>
+</body>
+
+</html>

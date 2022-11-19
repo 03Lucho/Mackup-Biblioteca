@@ -1,0 +1,35 @@
+.columna1{
+    text-align: right;
+}
+.centrar{
+    position: relative;
+    left: 150px;
+}
+h1{
+    padding-left: 20px;
+}
+.general{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1000px;
+}
+.sesion{
+    position: relative;
+    left: 1150px;
+    height: 70px;
+    width: 170px;
+}
+.tabla{
+    position: relative;
+    right: 149px;
+}
+#cierresesion{
+    position: relative;
+    bottom: 30px;
+}
+body{
+    background-color: rgba(220, 176, 118, 0.848);
+}
+#fondo{
+    background-color: white;
+}

@@ -1,0 +1,9 @@
+#navegacion{
+    text-align: center;
+    background-color: cornflowerblue;;
+    width: 100%;
+}
+a{
+    color: black;
+    padding: 50px;
+}

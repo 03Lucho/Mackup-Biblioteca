@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#subrayar{
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+H5{
+    text-decoration: underline;
+    color: blue;
+    padding-left: 75px;
+}
+td{
+    padding-left: 25px;
+}
+.general{
+    margin-top: 35px;
+    margin-bottom: 15px;;
+}
+.secundario{
+    margin-top: 5px;
+}
+fieldset{
+    position: relative;
+    left: 25px;
+    width: 600px;
+    background-color: white;
+}

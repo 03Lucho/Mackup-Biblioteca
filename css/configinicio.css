@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#general{
+    justify-content: center;
+    display: grid;
+}
+#datos{
+    margin: 20px;
+}
+.espaciado{
+    padding-top: 15px;
+}
+body{
+    background-image: url("../img/fondo\ biblioteca.jpg");
+    background-repeat: no-repeat;
+    background-size:  100%;
+}
+#olvidar{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+.registro{
+    padding-top: 20px;
+}
